@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Coimpatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Emmet Abbreviation é uma inteligência do VS Code que completa todo o código pra gente -->
+    <!-- <!DOCTYPE html> define um documento HTML5 -->
+    <!-- <html> é o elemento raiz do HTML | <lang="pt-br"> é uma propriedade que define a linguagem do código -->
+    <!-- <head> e <body> são tags filhas, ou nodes (nós) -->
+    <!-- <head> é a tag que vai ajustar configurações no documento invisíveis -->
+    <!--<meta charset="UT F-8"> define os conjuntos de caracteres que serão usados nessa página: caracteres especiais (acentos, til e etc...) -->
+    <!-- <meta http-equiv="X-UA-Coimpatible" content="IE=edge"> compatibiliza o código com navegadores antigos -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> adapta sua tela a página do site e começa de uma escala inicial de 1.0, onde você dá o zoom a partir dela -->
+
+    <!-- <div> é uma caixa genérica que não tem estilos que o browser aplica nela -->
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo"
+        />
+        <p>@maykbrito</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="#">Inscrever-se no NLW</a>
+        </li>
+
+        <li>
+          <a href="#">Baixe meu e-book</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/maykbrito" target="_blank"
+            >Veja meu portfólio</a
+          >
+        </li>
+
+        <li>
+          <a href="https://rocketseat.com.br/explorer" target="_blank"
+            >Começe o Explorer</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/maykbrito" target="_blank">
+          <ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="https://instagram.com/maykbrito" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon
+        ></a>
+        <a href="https://youtube.com/maykbrito" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon
+        ></a>
+        <a href="https://linkedin.com/in/maykbrito" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+      </div>
+
+      <footer>
+        Feito com ♥ pela <a href="https://rocketseat.com.br">Rocketseat</a>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
